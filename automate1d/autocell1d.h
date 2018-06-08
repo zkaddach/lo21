@@ -16,6 +16,7 @@
 #include <QPushButton>
 
 #include "../autocell.h"
+#include "automate1d.h"
 
 class Autocell;
 

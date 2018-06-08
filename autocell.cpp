@@ -1,7 +1,5 @@
 #include "autocell.h"
 
-
-
 Autocell::Autocell(QWidget* parent) : QWidget(parent) {
 
     m_automateLayout = new QHBoxLayout;

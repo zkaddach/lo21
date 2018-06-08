@@ -16,7 +16,7 @@ public:
     explicit Fenetre(Type* fenetre) : m_fenetre(fenetre) {}
 };
 
-class Autocell : public QWidget {
+class Autocell : public QWidget, public Fenetre<class Type> {
     Q_OBJECT
     Fenetre<AutoCell1D>* f_autocell1d = nullptr;
     Fenetre<AutoCell2D>* f_autocell2d = nullptr;
